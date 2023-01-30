@@ -1,0 +1,12 @@
+ A well formed HTML file contains the following content:
+ <html>
+ <head>
+    <title>
+    The title of your page
+    </title>
+ </head>
+
+ <body>
+    Your page content goes here.
+ </body>
+ </html>
