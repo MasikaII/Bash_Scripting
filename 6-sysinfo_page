@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# sysinfo_page - A script to produce an HTML file
+# adding a time stamp to the page to indicate when it was last updated,
+# along with the user that did it
+
+title="System Information for"
+
+cat <<- _EOF_
+    <html>
+    <head>
+        <title>
+        $title $HOSTNAME
+        </title>
+    </head>
+
+    <body>
+    <h1>$title $HOSTNAME</h1>
+    <p>Updated on $(date +"%x %r %Z") by $USER</p>
+    </body>
+    </html>
+_EOF_
