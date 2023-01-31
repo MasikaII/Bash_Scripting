@@ -3,7 +3,7 @@
 # sysinfo_page - A script to produce an HTML file
 # enabling indentation in the here script
 
-cat << -_EOF_
+cat <<- _EOF_
     <html>
     <head>
         <title>
